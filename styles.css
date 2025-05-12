@@ -1,6 +1,6 @@
-/* ===== Global Styles ===== */
+/* ===== Глобальные стили ===== */
 :root {
-    --primary: #5865F2; /* Discord blurple */
+    --primary: #5865F2; /* Discord-подобный blurple */
     --dark: #23272A;
     --darker: #1E1F22;
     --light: #FFFFFF;
@@ -23,7 +23,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ===== Navbar ===== */
+/* ===== Навигационная панель ===== */
 nav {
     display: flex;
     justify-content: space-between;
@@ -97,7 +97,7 @@ nav {
     cursor: pointer;
 }
 
-/* ===== Hero Section ===== */
+/* ===== Основной блок ===== */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -199,7 +199,7 @@ nav {
     50% { opacity: 0.7; }
 }
 
-/* ===== Features Section ===== */
+/* ===== Возможности ===== */
 .features {
     padding: 8rem 10%;
     background-color: var(--darker);
@@ -232,7 +232,7 @@ nav {
     line-height: 1.6;
 }
 
-/* ===== Footer ===== */
+/* ===== Подвал ===== */
 footer {
     background-color: var(--darker);
     padding: 4rem 10% 2rem;
@@ -321,7 +321,7 @@ footer {
     color: var(--primary);
 }
 
-/* ===== Responsive Design ===== */
+/* ===== Адаптивность ===== */
 @media (max-width: 1024px) {
     .hero {
         flex-direction: column;
